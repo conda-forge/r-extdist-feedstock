@@ -1,11 +1,11 @@
-About r-extdist
-===============
+About r-extdist-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-extdist-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ExtDist
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-extdist-feedstock/blob/main/LICENSE.txt)
 
 Summary: A consistent, unified and extensible framework for estimation of parameters for probability distributions, including parameter estimation procedures that allow for weighted samples; the current set of distributions included are: the standard beta, The four-parameter beta, Burr, gamma, Gumbel, Johnson SB and SU, Laplace, logistic, normal, symmetric truncated normal, truncated normal, symmetric-reflected truncated beta, standard symmetric-reflected truncated beta, triangular, uniform, and Weibull distributions; decision criteria and selections based on these decision criteria.
 
