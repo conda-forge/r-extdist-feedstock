@@ -1,4 +1,4 @@
-{% set version = "0.7-1" %}
+{% set version = "0.7-2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ExtDist_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ExtDist/ExtDist_{{ version }}.tar.gz
-  sha256: f80079786d01e01d7b1a546653730c6e895dd7330a98b66d7ab1b5f453eb7128
+  sha256: d5e95a029cfa1288c3451dffff8222f21e77d77a128c29967cdd0a7db4ac2a73
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
