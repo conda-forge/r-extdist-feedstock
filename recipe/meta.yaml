@@ -1,6 +1,5 @@
 {% set version = "0.7-2" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-extdist
@@ -13,8 +12,7 @@ source:
   sha256: d5e95a029cfa1288c3451dffff8222f21e77d77a128c29967cdd0a7db4ac2a73
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
