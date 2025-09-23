@@ -1,4 +1,4 @@
-{% set version = "0.7-3" %}
+{% set version = "0.7-4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ExtDist_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ExtDist/ExtDist_{{ version }}.tar.gz
-  sha256: 123e964e6d03b58aab519ebbf53cc05d002ec6b663544170346abefceb690690
+  sha256: de57cfededee9a5b8ef9c7eb628b9191c2b61c66ab7ac92b5f80b35c6533cf22
 
 build:
   number: 0
